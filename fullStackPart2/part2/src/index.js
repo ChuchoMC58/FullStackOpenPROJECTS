@@ -4,13 +4,13 @@ import css from './index.css'
 import App from "./App"
 import axios from 'axios'
 
-const promise = axios.get("http://localhost:3001/notes").then( response =>{
+/* const promise = axios.get("http://localhost:3001/notes").then( response =>{
   const notes = response.data
 })
 
 const promise2 = axios.get('http://localhost:3001/foobar')
                  .then( response => console.log("success"))
-                 .catch( response => console.log("failed"))
+                 .catch( response => console.log("failed")) */
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <App />
